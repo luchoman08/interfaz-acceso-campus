@@ -1,0 +1,57 @@
+.header-univalle{
+	background-color : #6D6E71;
+	max-height: 100px;
+}
+.header-univalle > ul > li > a{
+	color : white;
+	float: left;
+	font-size : 80%%;
+	margin-right: 10px;
+	margin-bottom: 0px; 
+
+}
+.header-univalle > ul > li{
+
+	display: inline-block;
+
+
+}
+.header-univalle > ul{
+	list-style:none;
+	text-align: center;
+
+}
+
+.logo-univalle{
+
+	margin-top: 25px;
+
+}
+
+.logo-univalle > a > img{
+
+	max-width: 100%;
+	align-self: center;
+
+	margin-bottom: 25px;
+}
+header .btn{
+
+	background-color: #ce000c;
+	color : white;
+	position: relative;
+	float: right;
+	margin-top: 25px;
+}
+header .btn:hover{
+
+	background-color: #de0000;
+	color : white;
+
+}
+header .btn:focus{
+
+	background-color: #ce000c;
+	color : white;
+
+}

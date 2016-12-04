@@ -1,0 +1,32 @@
+.navbar-univalle{
+	background-color: #D51B23;
+	margin-top: 25px;
+}
+
+.navbar-univalle .navbar-nav >li>a {
+	color: white;
+}
+.navbar-univalle .navbar-nav >li>a:hover {
+	background-color: white;
+	color: black;
+
+}
+.navbar-univalle .navbar-nav >li>a:focus {
+	color: white;
+
+}
+.navbar-univalle  .navbar-brand  {
+	color: white;
+
+}
+	
+.navbar-univalle  .navbar-brand:hover  {
+	background-color: white;
+	color: black ;
+
+}
+.navbar-univalle  .navbar-brand:focus  {
+	color: white;
+
+}
+	

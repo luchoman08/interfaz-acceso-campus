@@ -1,0 +1,24 @@
+.footer-univalle{
+	background-color: #D51B23;
+	margin-top: 5%;
+	padding-top: 1.5%;
+	color: white;
+	float: bottom;
+}
+.footer-univalle .group-footer{
+	width: 170px;
+	margin-top: 1.5%;
+	height: 163px
+}
+.footer-univalle .header-group{
+	list-style:none; 
+	font-size: 	103%;
+	font-weight: 600;
+
+}
+.footer-univalle img{
+	width: 112px;
+	height: 159px;
+	margin-bottom: 1.5%;
+
+}
