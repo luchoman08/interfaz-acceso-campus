@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="../css/header_univalle.css">
 	<link rel="stylesheet" type="text/css" href="../css/nav_univalle.css">
 	<link rel="stylesheet" type="text/css" href="../css/footer_univalle.css">
+	<link rel="stylesheet" type="text/css" href="../css/cuadro_login.css">
+	<link rel="stylesheet" type="text/css" href="../css/common.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="../bootstrap/js/bootstrap.min.js"></script>
 
@@ -26,7 +28,7 @@
 					<li><a href="www.univalle.edu.co">Mapa del sitio</a></li>
 				</ul>
 			</nav>
-			<button class="btn ">Ingresar</button>
+			<button class="btn">Ingresar</button>
 		</div>
 
 	</header>
@@ -54,33 +56,25 @@
 		</div>
 	</nav>	
 	<!-- end principal_nav -->
-	<!-- important_info-->
-	<div class = "container">
-		<div class="panel panel-default">
-			<div class="panel-heading" > Importante </div>
-			<div class="panel-body">
-				<div class="row">
-					<div class="col-md-6 text-justify">
-						Las maneras de loguearse son las siguientes alv :
-						Stack Overflow is a community of 6.4 million programmers, just like you, helping each other.
-						Join them; it only takes a minute: 
-						Las maneras de loguearse son las siguientes alv :
-						Stack Overflow is a community of 6.4 million programmers, just like you, helping each other.
-						Join them; it only takes a minute:
-					</div>
-					<div class="col-md-6 text-justify">
-						Las maneras de loguearse son las siguientes alv :
-						Stack Overflow is a community of 6.4 million programmers, just like you, helping each other.
-						Join them; it only takes a minute: 
-						Las maneras de loguearse son las siguientes alv :
-						Stack Overflow is a community of 6.4 million programmers, just like you, helping each other.
-						Join them; it only takes a minute:
-					</div>
-				</div>
-			</div>
+
+	<!-- cuadro login -->
+	<div class="container rounded-borders" id ="cuadro-login">
+		<div class="rounded-borders text-center col-md-6" id ="info-login">
+			Si desea más informaci&oacute;n &oacute; requiere asesoría adicional, por favor escr&iacute;banos a campusvirtual@correounivalle.edu.co &oacute; comuniquese al 3182649 ó 3182653
+
+			Manual de ingreso al Campus Virtual
 		</div>
+		<form class="form-logueo col-md-6"> 
+			<h4 class="text-white">  Ingresar al sistema </h4>  
+			<label class="text-white text-login" for="pwd"> Nombre de usuario: </label> <br />
+			<input type="text" name="nombre_usuario"> <br />
+			<label class="text-white text-login"  for="pwd"> Contraseña: </label> <br />
+			<input  type="text" name="nombre_usuario"> <br />
+			<label class="text-white text-login checkbox-inline "><input type="checkbox" value="">Recordar nombre de usuario</label><br />
+			<button class= "btn btn-login">Entrar</button>
+		</form>  
 	</div>
-	<!-- end important_info -->
+	<!-- fin cuadro login -->
 
 	<!-- footer -->
 
@@ -91,7 +85,7 @@
 			</div>	
 			<div class="col-md-2 col-sm-3 col-xs-5 group-footer">
 
-			 <li class = "header-group">Universidad del Valle:  </li>
+				<li class = "header-group">Universidad del Valle:  </li>
 				Cali - Colombia  
 				Vigilada Mineducaci&oacute;n 
 			</div>

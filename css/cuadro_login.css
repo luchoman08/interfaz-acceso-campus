@@ -1,0 +1,46 @@
+.rounded-borders{
+	border-radius: 12px;
+}
+#cuadro-login{
+	width:  70%;
+	padding: 0px 30px 30px 30px;
+	background-color: #C51B23;
+
+}
+#info-login{
+	margin: 40px 0px 20px 0px;
+	padding: 50px 40px 50px 40px;
+
+	background-color: white;	
+}
+
+.form-logueo{
+	margin-top: 30px;
+	text-align: center;
+}
+.btn-login{
+
+	background-color: #D51B23;
+	color : white;
+	border-width: 1px;
+	border-color: white;
+	position: relative;
+	margin-top: 25px;
+}
+.btn-login:hover{
+
+	background-color: #C51B23;
+	color : white;
+
+}
+.btn-login:focus{
+
+	background-color: #D51B23;
+	color : white;
+
+}
+.text-login{
+	font-size: 14px;
+	font-weight: normal;
+    line-height: 20px;
+}
